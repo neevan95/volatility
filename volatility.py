@@ -5,7 +5,7 @@ import yfinance as yf
 from scipy.stats import norm
 import plotly.graph_objects as go
 
-st.title("Stock Return Analysis")
+st.title("Stock Volatility")
 
 # User inputs
 symbol = st.text_input("Stock Ticker", value="AAPL").upper()
